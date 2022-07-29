@@ -601,7 +601,7 @@ article#outro div.contactme {
 	box-sizing: border-box;
 	position: absolute;
 	left: 20px;
-	bottom: 10px;
+	top: 280px;
 }
 article#outro div.contactme span.resume {
 	display: block;
