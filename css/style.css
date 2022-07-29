@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {margin: 0; padding: 0;}
@@ -46,6 +46,10 @@ div.xline p.line span.circle {
 }
 
 /*#01*/
+article#intro {
+	width: 100%;
+	height: 100%; 
+}
 article#intro div.title {
 	width: 40%;
 	height: 180px;
@@ -103,6 +107,10 @@ article#intro div.enter p.colorBg {
 }
 
 /*#02*/
+article#profile {
+	width: 100%;
+	height: 100%; 
+}
 article#profile div.title {
 	position: absolute;
 	top: 0;
@@ -208,13 +216,14 @@ section.content_wrap div.prof_wrap ul li {
 
 /*#03*/
 article#aboutme {
+	width: 100%;
+	height: 100%; 
 	display: flex;
 }
 article#aboutme section.spec {
-	width: 48%;
+	width: 36%;
 	height: 100%;
 	padding: 5% 4% 2% 8%;
-	box-sizing: border-box;
 }
 section.spec div.spec_graphy {
 	width: 100%;
@@ -304,7 +313,7 @@ li.sp_ex div.circle_body {
 }
 
 article#aboutme div.xline {
-	width: 15%;
+	width: 14%;
 	height: 100%;
 }
 article#aboutme div.xline p.line.crossltor {
@@ -337,6 +346,7 @@ article#aboutme section.motive {
 	width: 30%;
 	height: 100%;
 	padding: 7% 4% 2% 4%;
+	box-sizing: border-box;
 }
 section.motive ul.motive_wrap li.shadow {
 	width: 520px;
@@ -376,6 +386,8 @@ section.motive ul.motive_wrap li.shadow div p.mtv_des {
 
 /*#04*/
 article#portfolio {
+	width: 100%;
+	height: 100%; 
 	background-repeat: no-repeat;
 	background-position: 80% top;
 	background-size: 100%;
@@ -409,21 +421,18 @@ article#portfolio div.xline p.line.crossrtol span.end {
 }
 article#portfolio div.pf_background {
 	width: 100%;
-	height: 100%;
-	position: absolute;
+	height: 100vh;
+	position: relative;
 	top: 0;
 	left: 0;
 	overflow: hidden;
 }
 article#portfolio div.pf_background img {
-	width: 100%;
 	position: absolute;
 	top: 40px;
-	left: 200px;
+	right: -40px;
 	opacity: .4;
 }
-
-
 article#portfolio ul.pf_list {
 	position: absolute;
 }
@@ -539,6 +548,10 @@ ul.pf_list li div.pf_list_wrap p.tag_02 {bottom: 15px;}
 
 
 /*#05*/
+article#outro {
+	width: 100%;
+	height: 100%; 
+}
 article#outro div.xline {
 	position: absolute;
 	top: 0;
@@ -583,7 +596,7 @@ article#outro div.greeting h2 {
 	font-weight: 400;
 }
 article#outro div.contactme {
-	width: 100%;
+	width: 100vw;
 	height: 640px;
 	box-sizing: border-box;
 	position: absolute;
